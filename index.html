@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/css/estilo.css">
+  <title>Cronômetro</title>
+</head>
+
+<body>
+  <main>
+<!--<div class="menuTempo">
+      <div class="menu menuHora">
+        <input type="text" class="inputTempo" id="inputHora" minlength="2" maxlength="2" pattern="[0-9]+" title="Apenas números" placeholder="HH">:
+      </div>
+      <div class="menu menuMinuto">
+        <input type="text" class="inputTempo" id="inputMinuto" minlength="2" maxlength="2" pattern="[0-9]+" title="Apenas números" placeholder="MM">:
+      </div>
+      <div class="menu menuSegundo">
+        <input type="text" class="inputTempo" id="inputSegundo" minlength="2" maxlength="2" pattern="[0-9]+" title="Apenas números" placeholder="SS">
+      </div>
+    </div> -->
+
+    <div class="cronometro">
+      <div class="cronometroDisplay item" id="cronometroDisplay">
+        <h1 id="contador">00:00:00</h1>
+      </div>
+      <div class="cronometroBtn item" >
+        <button class="btn startBtn" id="startBtn" onclick="start()">INICIAR</button>
+        <button class="btn pauseBtn" id="pauseBtn" onclick="pause()">PAUSAR</button>
+        <button class="btn stopBtn" id="stopBtn" onclick="stop()">PARAR</button>
+      </div>
+    </div>
+  </main>
+
+  <script rel="script/javascript" src="assets/js/main.js"></script>
+</body>
+
+</html>
